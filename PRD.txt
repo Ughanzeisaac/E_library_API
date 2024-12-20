@@ -1,0 +1,29 @@
+E-Library API System/
+├── app/
+│   ├── _init_.py
+│   ├── main.py             
+│   ├── routes/
+│   │   ├── _init_.py
+│   │   ├── book_routes.py      
+│   │   ├── borrow_routes.py      
+│   │   ├── user_routes.py              
+│   ├── schemas/
+│   │   ├── _init_.py
+│   │   ├── book.py     
+│   │   ├── borrow.py        
+│   │   ├── user.py             
+│   ├── db/
+│   │   ├── _init_.py
+│   │   ├── book_db.py     
+│   │   ├── borrow_db.py        
+│   │   ├── user_db.py         
+├── tests/
+│   ├── _init_.py
+│   ├── test_service.py     
+│   ├── test_borrow.py        
+│   ├── test_user.py        
+├── env              
+├── .gitignore       
+├── PRD.txt                                     
+├── README.md               
+├── requirements.txt 
